@@ -12,17 +12,6 @@
     "type": "git",
     "url": "https://github.com/thaolt/vue-plyr.git"
   },
-  "scripts": {
-    "prebuild": "rm -rf dist/",
-    "build": "NODE_ENV=production rollup --c rollup.config.js",
-    "build:es": "NODE_ENV=production rollup --c rollup.config.js --format=es",
-    "build:es:watch": "NODE_ENV=production rollup --c rollup.config.js --format=es --watch",
-    "build:cjs": "NODE_ENV=production rollup --c rollup.config.js --format=cjs",
-    "build:cjs:watch": "NODE_ENV=production rollup --c rollup.config.js --format=cjs --watch",
-    "build:iife": "NODE_ENV=production rollup --c rollup.config.js --format=iife",
-    "build:iife:watch": "NODE_ENV=production rollup --c rollup.config.js --format=iife --watch",
-    "lint": "vue-cli-service lint -f pretty"
-  },
   "main": "dist/vue-plyr.ssr.js",
   "module": "dist/vue-plyr.esm.js",
   "unpkg": "dist/vue-plyr.min.js",
