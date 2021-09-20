@@ -3078,7 +3078,7 @@
     "browserslist" "^4.8.5"
     "semver" "7.0.0"
 
-"core-js@^3.6.5", "core-js@^3.8.1":
+"core-js@^3.10.1", "core-js@^3.6.5":
   "integrity" "sha512-WJeQqq6jOYgVgg4NrXKL0KLQhi0CT4ZOCvFL+3CQ5o7I6J8HkT5wd53EadMfqTDp1so/MT1J+w2ujhWcCJtN7w=="
   "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.18.0.tgz"
   "version" "3.18.0"
@@ -7080,11 +7080,12 @@
   dependencies:
     "irregular-plurals" "^3.2.0"
 
-"plyr@https://github.com/sampotts/plyr.git#develop":
-  "resolved" "git+ssh://git@github.com/sampotts/plyr.git#02d06c464c3cb8dc978253667ec57b3437fe02de"
-  "version" "3.6.4"
+"plyr@^3.6.8":
+  "integrity" "sha512-Iu9KKsH+/HH6PBGAag57KswjXRXyJ9TeMlcMiwLCGC9foqSIb+crPi6wTmyFr9AFmTr8QZuFrYEL+SlnXT+vBw=="
+  "resolved" "https://registry.npmjs.org/plyr/-/plyr-3.6.8.tgz"
+  "version" "3.6.8"
   dependencies:
-    "core-js" "^3.8.1"
+    "core-js" "^3.10.1"
     "custom-event-polyfill" "^1.0.7"
     "loadjs" "^4.2.0"
     "rangetouch" "^2.0.1"
